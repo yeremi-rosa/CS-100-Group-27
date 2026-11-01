@@ -1,0 +1,6 @@
+Choose an already existing product
+Input the amount of units sold for the product
+Check if the product exists and has enough stock
+If the previous statement is true, take the existing stock amount and subtract it from the sales amount
+Calculate the remaining stock
+Save the remaining stock
