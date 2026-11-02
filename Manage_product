@@ -1,0 +1,30 @@
+MANAGE PRODUCTS (choice 1)
+  Input the product menu choice (1 Add product, 2 Restock product)
+  IF the choice is Add product
+    Input the product ID
+    IF the product ID already exists in the inventory
+      Display "Product ID already exists"
+    ELSE
+      Input the product name, price, and starting quantity
+      IF the price is greater than 0 and the quantity is 0 or more
+        Save the product with stock = quantity and units sold = 0
+        Display "Product added"
+      ELSE
+        Display "Invalid price or quantity"
+      END IF
+    END IF
+  ELSE IF the choice is Restock product
+    Input the product ID
+    IF the product does not exist in the inventory
+      Display "Product not found"
+    ELSE
+      Input the number of units received
+      IF the units are a whole number greater than 0
+        Add the units to the stock and display the new amount
+      ELSE
+        Display "Enter a positive whole number"
+      END IF
+    END IF
+  ELSE
+    Display "Invalid choice"
+  END IF
