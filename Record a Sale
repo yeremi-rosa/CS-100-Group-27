@@ -1,4 +1,5 @@
 START
+
 Choose an already existing product
 Input the amount of units sold for the product
 Check if the product exists and has enough stock
@@ -12,4 +13,5 @@ IF there is not enough stock
   Deny the request due to a lack of stock
 ELSE the product does not exist
   Deny the request due to a nonexistent product
+
 END
