@@ -14,7 +14,7 @@ ELSE
         Display "Low Stock"
       END IF
    END FOR
-   Display tota units sold
+   Display total units sold
    Display total sales
 END IF
 END
