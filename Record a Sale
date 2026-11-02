@@ -1,6 +1,15 @@
+START
 Choose an already existing product
 Input the amount of units sold for the product
 Check if the product exists and has enough stock
-If the previous statement is true, take the existing stock amount and subtract it from the sales amount
-Calculate the remaining stock
-Save the remaining stock
+
+WHILE the product exists and has enough stock
+  take the existing stock amount and subtract it from the sales amount
+  Calculate the remaining stock
+  Save the remaining stock
+
+IF there is not enough stock
+  Deny the request due to a lack of stock
+ELSE the product does not exist
+  Deny the request due to a nonexistent product
+END
