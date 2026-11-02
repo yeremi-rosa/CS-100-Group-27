@@ -1,9 +1,9 @@
 START
-Check if there are products in inventory
 IF inventory is empty 
   Display "No products available"
 ELSE
-  Set total_sales to 0 AND Set total_units_sold to 0
+  Set total_sales to 0
+  Set total_units_sold to 0
   FOR each product in inventory
     Display product name
     Display current stock
